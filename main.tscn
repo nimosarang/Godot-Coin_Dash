@@ -8,7 +8,6 @@
 [node name="Main" type="Node"]
 script = ExtResource("1_5twxm")
 coin_scene = ExtResource("2_irsll")
-playtime = null
 
 [node name="Background" type="TextureRect" parent="."]
 anchors_preset = 15

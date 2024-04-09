@@ -77,7 +77,10 @@ script = ExtResource("1_wbi42")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_5gg0u")
-animation = &"hurt"
+animation = &"run"
+autoplay = "run"
+frame = 5
+frame_progress = 1.0
 offset = Vector2(2.08165e-12, -5)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
